@@ -29,3 +29,9 @@ function writeCards(names, eventName) {
 }
 
 //the countdown function
+function countDown(number) {
+  while (number >= 0) {
+    console.log(number);
+    number--;
+  }
+}
