@@ -18,3 +18,14 @@ let names = [];
 //     console.log(`Thank you, {theNames[i]}, for the wonderful surprise`);
 //   }
 // }
+
+function writeCards(names, eventName) {
+  let message = []; // an empty array
+  for (let i = 0; i < names.length; i++) {
+    // .push array method add elements destructively to the end of an array
+    message.push(`Thank you, ${names[i]}, for the wonderful surprise gift!`);
+  }
+  return message;
+}
+
+//the countdown function
